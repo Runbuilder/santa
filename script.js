@@ -46,8 +46,8 @@ function generateContent(language) {
   const formData = new FormData();
   formData.append('image', imageInput.files[0]);
 
-  // const jcookUrl = `https://port-0-santa-9zxht12blq81t0ot.sel4.cloudtype.app/generate/gift?language=${language}`
-  const Url = `http://localhost:3000/generate/gift?language=${language}`
+  const Url = `https://port-0-santa-9zxht12blq81t0ot.sel4.cloudtype.app/generate/gift?language=${language}`
+  // const Url = `http://localhost:3000/generate/gift?language=${language}`
 
   fetch(Url, {
     method: 'POST',
